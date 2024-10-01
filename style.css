@@ -1,10 +1,23 @@
 body {
-    background-color: lightcoral;
+    background-color: rgb(147, 145, 230);
     
 }
 
 .rubrik{
-font-family: fantasy;
-font-size: xx-large;
-text-align: center;
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.team{
+    font-family: fantasy;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.bild{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
