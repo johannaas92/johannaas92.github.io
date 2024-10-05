@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projekt</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Om mig</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="projekt.html">Projekt</a></li>
+                <li><a href="fritidsintressen.html">Fritidsintressen</a></li>
+                <li><a href="husdjur.html">Husdjur</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <img src="bilder/projekt.jpg" alt="projekt" class="bild_projekt">
+
+        <h1>Mitt arduino projekt</h1>
+        <p>I somras utförde jag ett eget projekt där jag byggde ihop en arduino modul vars uppgift var att mäta luftfuktighet och
+        temperaturvärden och sedan skicka vidare dessa värden till en databas. Jag kopplade ihop en DHT11 sensor som registrerar
+        temperatur och luftfuktighetsvärden samt en Piezo-modul som är en högtalare till ett breadboard. Detta kopplades sedan
+        vidare till ett UNO R4 wifi kort som skötte kontakten mellan wifi och arduino modulerna.
+        Jag la även till ett begränsningsvärde på temperatur som gav ifrån sig ett larm i form av ett pip om temperaturen steg
+        över den angivna begränsningen.</p>
+
+        <img src="bilder/koppling.jpg" alt="koppling" class="bild_koppling">
+    </article>
+
+    <footer>
+        <strong><em>Johanna AB © 2024</strong></em>
+    </footer>
+
+</body>
+
+</html>

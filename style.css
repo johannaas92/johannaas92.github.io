@@ -1,52 +1,46 @@
-body {
-    background-color: rgb(214, 213, 213);
-}
-
-main{
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-h1{
+body{
+    background-color: rgb(255, 255, 255);
     font-family: sans-serif;
-    font-size: xx-large;
-    text-align: center;
 }
 
-h2 {
-    font-family: sans-serif;
-    font-size: large;
-    text-align: left;
-}
-
-.bild{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-.navbar ul{
+.navbar ul {
     list-style-type: none;
-    background-color: rgb(110, 110, 110);
+    background-color: rgb(190, 190, 190);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    width: 100%;
 }
 
-.navbar a{
+.navbar a {
     font-family: sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
 
-.navbar a:hover{
-    background-color: rgb(167, 167, 167);
-}
-
 .navbar li{
     float: left;
+}
+
+.navbar a:hover {
+    background-color: rgb(179, 179, 179);
+}
+
+article {
+    width: 50%;
+}
+
+.bild_träd{
+    width: 100%;
+}
+
+.bild_milo{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
 }
