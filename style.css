@@ -1,11 +1,13 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(157, 191, 158);
     font-family: sans-serif;
+    margin: 0;
+    text-align: center;
 }
 
 .navbar ul {
     list-style-type: none;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(157, 191, 158);
     padding: 0px;
     margin: 0px;
     overflow: hidden;
@@ -26,24 +28,29 @@ body{
 }
 
 .navbar a:hover {
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(58, 51, 53);
 }
 
 article {
-    width: 50%;
+    width: 100%;
 }
 
 .bild_träd{
-    width: 100%;
+    width: 50%;
 }
 
 .bild_milo{
-    width: 100%;
+    width: 50%;
 }
 
 footer{
     text-align: center;
 }
 
-.kompetenser li{
+hr{
+    border: 1px solid rgb(58, 51, 53);
+}
+
+.kompetenslista{
+    list-style-position: inside;
 }
