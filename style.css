@@ -3,6 +3,7 @@ body{
     font-family: sans-serif;
     margin: 0;
     text-align: center;
+    
 }
 
 .navbar ul {
@@ -43,8 +44,19 @@ article {
     width: 50%;
 }
 
-footer{
-    text-align: center;
+footer {
+    background-color: rgb(109, 2, 172);
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid white;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item{
+     width: 10em;
 }
 
 hr{
@@ -74,8 +86,8 @@ height, width and background color */
      width: 250px;
      height: 32px;
      padding: 10px;
-     background-color: black;
-     color: white;
+     background-color: rgba(255, 255, 255, 0);
+     color: rgb(0, 0, 0);
      text-align: center;
  }
 
