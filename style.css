@@ -1,56 +1,177 @@
-body{
-    background-color: rgb(157, 191, 158);
-    font-family: sans-serif;
+/*Overrides all element settings */
+* {
+    box-sizing: border-box;
     margin: 0;
-    text-align: center;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
-.navbar ul {
-    list-style-type: none;
-    background-color: rgb(157, 191, 158);
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    width: 100%;
+body {
+    background-color: rgb(63, 63, 63);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.navbar a {
-    font-family: sans-serif;
-    color: rgb(0, 0, 0);
+/*Header and navbar settings begin*/
+li a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
 }
 
-.navbar li{
-    float: left;
+header {
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 5%;
 }
 
-.navbar a:hover {
-    background-color: rgb(58, 51, 53);
+.logo {
+    color:#fc036b;
+    margin-right: auto;
 }
 
-article {
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #af024a;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: #fc036b;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #af024a;
+}
+/*Header and navbar settings end*/
+
+/*Index site*/
+.index_text{
+    position: absolute;
+    width: 50%;
+    left: 5%;
+    top: 15%;
+}
+
+.index_bild{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+
+.bild_teamlink{
+    float: right;
+    width: 50%;
+    border: 10px solid #000000
+}
+
+
+/*About site*/
+.bild_milo {
+    float: right;
+    width: 30%;
+    border: 10px solid #000000
+}
+.about_bild {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+.about_text {
+    position: absolute;
+    width: 50%;
+    left: 5%;
+    top: 15%;
+}
+
+
+/*Projects site*/
+.bild_projekt{
+    float: right;
+    width: 90%;
+    border: 10px solid #000000
+}
+
+.bild_koppling{
+    float: right;
+    width: 65%;
+    border: 10px solid #000000
+}
+
+.projekt_bild1{
+    position: absolute;
+    right: 10%;
+    top: 17%;
+}
+
+.projekt_bild2{
+    position: absolute;
+    right: 5%;
+    top: 60%;
+}
+
+.projekt_text{
+    position: absolute;
+    width: 50%;
+    left: 5%;
+    top: 15%;
+}
+
+
+/*CV site*/
+.cv_text{
+    position: absolute;
+    width: 50%;
+    left: 5%;
+    top: 15%;
+}
+.pdf{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+
+/*Contact site*/
+.contact_text{
+    position: absolute;
+    width: 50%;
+    left: 5%;
+    top: 15%;
+}
+
+
+
+/*Footer*/
+.foot_text {
+    width: 10em;
+}
+
+footer {
+    background-color: rgb(20, 20, 20);
+    height: 100px;
     width: 100%;
-}
-
-.bild_träd{
-    width: 50%;
-}
-
-.bild_milo{
-    width: 50%;
-}
-
-footer{
-    text-align: center;
-}
-
-hr{
-    border: 1px solid rgb(58, 51, 53);
-}
-
-.kompetenslista{
-    list-style-position: inside;
+    border-top: 2px solid rgb(0, 0, 0);
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
 }

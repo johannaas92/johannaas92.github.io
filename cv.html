@@ -6,78 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="bilder/snowflake.svg">
-    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <title>Resume</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="cv.html">CV</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact me</a></li>
-            </ul>
-            <hr>
-        </nav>
+        <h2 class="logo">Johanna</h2>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="cv.html">Resume</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="contact.html"><button>Contact</button></a>
     </header>
-
     
+    <div class="cv_text">
+        <h1>My resume</h1>
+    </div>
 
-    <article>
-        <img src="bilder/träd.jpg" alt="träd" class="bild_träd">
-        <h1>Mitt CV</h1>
-        <h3>Utbildning</h3>
-        <strong>Skriv skola här</strong>
-        <p>Skriv vad du studerat här</p>
-    </article>
+    <div class="pdf">
+        <object data="objekt/cv-exempel.pdf#toolbar=0" width="60%" height="500px">
+        </object>
+    </div>
 
-    <article>
-        <strong>Skriv skola här</strong>
-        <p>Skriv vad du studerat här</p>
-    </article>
-
-    <article>
-        <h3>Arbetsliverfarenhet</h3>
-        <strong>Skriv arbetsgivare här</strong>
-        <p>Skriv arbetsbeskrivning här</p>
-    </article>
-
-    <article>
-        <strong>Skriv arbetsgivare här</strong>
-        <p>Skriv arbetsbeskrivning här</p>
-    </article>
-    
-    <article>
-        <strong>Skriv arbetsgivare här</strong>
-        <p>Skriv arbetsbeskrivning här</p>
-    </article>
-
-    <article>
-        <strong>Skriv arbetsgivare här</strong>
-        <p>Skriv arbetsbeskrivning här</p>
-    </article>
-
-    <article>
-        <strong>Skriv arbetsgivare här</strong>
-        <p>Skriv arbetsbeskrivning här</p>
-    </article>
-
-    <article class="kompetenser">
-        <h3>Kompetenser</h3>
-        <ul class="kompetenslista">
-            <li>Lista kompetenser</li>
-            <li>Lista kompetenser</li>
-            <li>Lista kompetenser</li>
-            <li>Lista kompetenser</li>
-            <li>Lista kompetenser</li>
-            <li>Lista kompetenser</li>
-        </ul>
-    </article>
+   
 
     <footer>
-        <strong><em>Johanna AB © 2024</strong></em>
+        <div class="foot_text">
+            <strong>© Johanna AB 2024</strong>
+        </div>
     </footer>
 
 </body>
