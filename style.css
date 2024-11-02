@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color: rgb(63, 63, 63);
+    /*background-color: rgb(63, 63, 63);*/
+    background-image: url("bilder/background.jpeg");
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -24,7 +25,7 @@ li a, button {
 }
 
 header {
-    background-color: rgb(63, 63, 63);
+    background-color: rgba(63, 63, 63, 0.5);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -57,6 +58,7 @@ button {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    
 }
 
 button:hover {
@@ -166,10 +168,10 @@ button:hover {
 }
 
 footer {
-    background-color: rgb(20, 20, 20);
+    background-color: rgba(20, 20, 20, 0.5);
     height: 100px;
     width: 100%;
-    border-top: 2px solid rgb(0, 0, 0);
+    /*border-top: 2px solid rgb(0, 0, 0);*/
     color: antiquewhite;
     display: flex;
     align-items: center;
