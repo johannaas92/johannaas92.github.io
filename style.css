@@ -24,6 +24,20 @@ li a, button {
     text-decoration: none;
 }
 
+.nav_links a.active {
+    padding-bottom: 25px;
+    border-bottom: 3px solid #fc036b;
+}
+
+.button_list {
+    list-style: none;
+}
+
+.cta {
+    padding-bottom: 25px;
+    border-bottom: 3px solid #fc036b;
+}
+
 header {
     background-color: rgba(63, 63, 63, 0.5);
     display: flex;
@@ -179,6 +193,7 @@ footer {
     margin-top: auto;
 }
 
+/*
 @media screen and (max-width: 390px) {
     header{
         display: block;
@@ -189,3 +204,4 @@ footer {
         margin-left: 70%;
     }
 }
+*/
