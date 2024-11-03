@@ -33,7 +33,7 @@ li a, button {
     list-style: none;
 }
 
-.cta {
+.contact_line {
     padding-bottom: 25px;
     border-bottom: 3px solid #fc036b;
 }
@@ -79,6 +79,7 @@ button:hover {
 }
 /*Header and navbar settings end*/
 
+
 /*Index site*/
 .index_text{
     position: absolute;
@@ -89,13 +90,14 @@ button:hover {
 
 .index_bild{
     position: absolute;
-    right: 5%;
-    top: 35%;
+    right: 10%;
+    top: 45%;
 }
 
 .bild_dator{
     float: right;
-    width: 90%;
+    width: 80%;
+    border-radius: 10px;
     /*border: 2px solid #000000;*/
     box-shadow: 1px 1px 2px black, 0 0 25px rgb(72, 18, 158), 0 0 5px darkblue;
 }
@@ -105,6 +107,7 @@ button:hover {
 .bild_milo {
     float: right;
     width: 30%;
+    border-radius: 10px;
     /*border: 10px solid #000000;*/
     box-shadow: 1px 1px 2px black, 0 0 25px rgb(72, 18, 158), 0 0 5px darkblue;
 }
@@ -125,13 +128,17 @@ button:hover {
 .bild_projekt{
     float: right;
     width: 90%;
-    border: 10px solid #000000
+    border-radius: 10px;
+    /*border: 10px solid #000000*/
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(72, 18, 158), 0 0 5px darkblue;
 }
 
 .bild_koppling{
     float: right;
     width: 65%;
-    border: 10px solid #000000
+    border-radius: 10px;
+    /*border: 10px solid #000000*/
+    box-shadow: 1px 1px 2px black, 0 0 25px rgb(72, 18, 158), 0 0 5px darkblue;
 }
 
 .projekt_bild1{
@@ -176,6 +183,7 @@ button:hover {
 
 .contact_text h1{
     border-bottom: 3px solid #fc036b;
+    padding-bottom: 10px;
 }
 
 
