@@ -65,7 +65,6 @@ header {
 }
 
 button {
-    margin-left: 20px;
     padding: 9px 25px;
     background-color: #fc036b;
     border: none;
@@ -197,16 +196,3 @@ footer {
     justify-content: center;
     margin-top: auto;
 }
-
-/*
-@media screen and (max-width: 390px) {
-    header{
-        display: block;
-        padding: 10px;
-    }
-
-    button{
-        margin-left: 70%;
-    }
-}
-*/
